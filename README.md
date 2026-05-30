@@ -41,7 +41,8 @@ cd API
 
 # Criar o ambiente virtual
 python -m venv venv
-
+#Liberar a política de execução
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 # Ativar o ambiente virtual
 venv\Scripts\activate            # Windows CMD
 # venv\Scripts\Activate.ps1      # Windows PowerShell
